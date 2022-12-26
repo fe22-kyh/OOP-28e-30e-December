@@ -1,4 +1,4 @@
-# 28e December
+# 28e & 30e December
 
 ## Live-kod
 
