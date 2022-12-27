@@ -65,7 +65,7 @@ Uppgiften är att placera all todo logik (skapandet av mock-todos) i filen todo.
 
 app.js & index.html (förslag på objekt till html logik)
 <details>
-  <summary>Example - Spoiler warning</summary>
+  <summary>Exempel - Spoiler warning</summary>
     
   index.html
   ```html
@@ -95,7 +95,7 @@ app.js & index.html (förslag på objekt till html logik)
 
 
 <details>
-  <summary>Solution - Spoiler warning</summary>
+  <summary>Lösning - Spoiler warning</summary>
 
   todo.js
   ```js
