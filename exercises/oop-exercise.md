@@ -119,7 +119,7 @@ app.js & index.html (förslag på objekt till html logik)
 
 ## #2 Förbättringen
 
-Utöka objektet TodoItem med en tidstämpel. Gör detta genom att tilldela TodoItem en egenskap kallad "startDate", värdet på startDate ska sättas i konstruktorn.
+Utöka objektet TodoItem med en tidstämpel. Gör detta genom att tilldela TodoItem en egenskap kallad "startDate", värdet på startDate ska sättas i konstruktorn med "new Date()".
 
 ```js
 let todo = new Todo();
