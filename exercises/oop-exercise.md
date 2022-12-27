@@ -59,37 +59,19 @@ todoList.printTitles();
 
 ## Uppgift - #1 Implementering
 
-Skapa ett enklare gränssnitt för todos som endast skriver ut ett par stycken todos innehåll med hjälp av objekten ovan. Placera all todo logik (skapandet av mock-todos) i filen todo.js och allt visuellt (dom manipulation) i en fil kallad app.js.
+Skapa ett enklare gränssnitt i html och css med en todo container som endast innehåller ut ett par stycken todos innehåll med hjälp av objekten ovan. 
 
+Uppgiften är att placera all todo logik (skapandet av mock-todos) i filen todo.js och allt visuellt (dom manipulation) i en fil kallad app.js. Detta innebär att du kommer behöva skapa upp ett par stycken TodoItem instanser (med hjälp av new TodoItem) i todo.js och använda metoden "addTodoItem" för att placera den interna todos arrayen i TodoList objektet.
 
-
+app.js & index.html (förslag på objekt till html logik)
 <details>
   <summary>Example - Spoiler warning</summary>
-  
-  
+    
   index.html
   ```html
   <ul class="todo-container"></ul>
   ```
-
-  todo.js
-  ```js
-  let todoList = new TodoList();
-
-    let todo = new Todo();
-  todo.title = "Laundry";
-  todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
-
-  todoList.addTodoItem(todo);
-
-  todo = new Todo();
-  todo.title = "Bake pancakes"
-  todo.content = "Promised my younger brother to help him bake pancakes at 17:00 tomorrow";
-
-  todoList.addTodoItem(todo);
-  ```
-
-  app.js
+  
   ```js
   const todoList = document.querySelector(".todo-container");
 
@@ -107,6 +89,29 @@ Skapa ett enklare gränssnitt för todos som endast skriver ut ett par stycken t
     let li = createTodoListItem(todo);
     todoContainer.append(li);
   });
+  ```
+</details>
+
+
+
+<details>
+  <summary>Solution - Spoiler warning</summary>
+
+  todo.js
+  ```js
+  let todoList = new TodoList();
+
+  let todo = new Todo();
+  todo.title = "Laundry";
+  todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
+
+  todoList.addTodoItem(todo);
+
+  todo = new Todo(); // todo är redan deklarerad, här skapar vi endast en ny instans på samma referens som innan
+  todo.title = "Bake pancakes"
+  todo.content = "Promised my younger brother to help him bake pancakes at 17:00 tomorrow";
+
+  todoList.addTodoItem(todo);
   ```
 </details>
 
