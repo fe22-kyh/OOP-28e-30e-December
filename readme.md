@@ -21,3 +21,5 @@ Tills nästkommande vecka bör du ha koll på OOP begrepp (och koncept) som:
 Ett alternativ till en todo app är att göra om tidigare program med klasser, ex. så kan ett memory representeras med klasserna "GameState", "Player", "Card", "History" (som exempel). 
 - [A simple OOP todo](exercises/oop-exercise.md)
 
+## Liten tävling
+Todo appen byggs vidare som en del av en mindre tävling, se instruktionerina i [Ultimate todo app](https://github.com/fe22-kyh/OOP-28e-30e-December/blob/main/exercises/best-todo.md)
