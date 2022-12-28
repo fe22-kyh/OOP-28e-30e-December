@@ -22,4 +22,4 @@ Ett alternativ till en todo app är att göra om tidigare program med klasser, e
 - [A simple OOP todo](exercises/oop-exercise.md)
 
 ## Liten tävling
-Todo appen byggs vidare som en del av en mindre tävling, se instruktionerina i [Ultimate todo app](https://github.com/fe22-kyh/OOP-28e-30e-December/blob/main/exercises/best-todo.md)
+Todo appen byggs vidare som en del av en mindre tävling, se instruktionerna i [Ultimate todo app](https://github.com/fe22-kyh/OOP-28e-30e-December/blob/main/exercises/best-todo.md)
