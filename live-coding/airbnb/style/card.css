@@ -60,3 +60,29 @@
 .card:hover {
   box-shadow: 6px 6px 12px #969696;
 }
+
+
+.card-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(66, 66, 66, 0.4);
+}
+
+.modal-content {
+  width: 20%;
+  margin: 20% auto;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: .3em;
+}
+
+.modal-content > * {
+  margin: .5em 0;
+}
+
+.modal-image {
+  width: 100%;
+}

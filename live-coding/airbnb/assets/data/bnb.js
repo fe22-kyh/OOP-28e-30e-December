@@ -8,7 +8,7 @@ let cardsDB = [
     "host": "Enskild värd",
     "date": "3-8 okt.",
     "price": "1541",
-    "rating": "4.92"
+    "rating": "4.82"
   },
   {
     "image": {
