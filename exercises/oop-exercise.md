@@ -47,7 +47,7 @@ Exempel på när en todo skapas och läggs till i listan av todos
 ```js
 let todoList = new TodoList();
 
-let todo = new Todo();
+let todo = new TodoItem();
 todo.title = "Laundry";
 todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
 
@@ -101,13 +101,13 @@ app.js & index.html (förslag på objekt till html logik)
   ```js
   let todoList = new TodoList();
 
-  let todo = new Todo();
+  let todo = new TodoItem();
   todo.title = "Laundry";
   todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
 
   todoList.addTodoItem(todo);
 
-  todo = new Todo(); // todo är redan deklarerad, här skapar vi endast en ny instans på samma referens som innan
+  todo = new TodoItem(); // todo är redan deklarerad, här skapar vi endast en ny instans på samma referens som innan
   todo.title = "Bake pancakes"
   todo.content = "Promised my younger brother to help him bake pancakes at 17:00 tomorrow";
 
@@ -122,7 +122,7 @@ app.js & index.html (förslag på objekt till html logik)
 Utöka objektet TodoItem med en tidstämpel. Gör detta genom att tilldela TodoItem en egenskap kallad "startDate", värdet på startDate ska sättas i konstruktorn med "new Date()".
 
 ```js
-let todo = new Todo();
+let todo = new TodoItem();
 todo.title = "Timed todo";
 todo.content = "This todo has a start date";
 
@@ -148,7 +148,7 @@ console.log(todo.startDate); // Prints time when todo was created (just now)
 Lägg även till en metod som kan sätta ett slutdatum (egenskap todo.endDate) för todo:n. Namnge metoden "setDeadline".
 
 ```js
-let todo = new Todo();
+let todo = new TodoItem();
 todo.title = "Timed todo";
 todo.content = "This todo has a start date";
 
@@ -178,7 +178,7 @@ console.log(todo.endDate); //2022-05-05
 Skapa en metod setDeadlineIn som tar emot ett heltal för antal dagar.
 
 ```js
-let todo = new Todo();
+let todo = new TodoItem();
 todo.title = "Timed todo";
 todo.content = "This todo has a start date";
 
@@ -223,13 +223,13 @@ Implementera logiken för "getTodosByTitle" som ska returnera en lista av todos 
 ```js
 let todoList = new TodoList();
 
-  let todo = new Todo();
+  let todo = new TodoItem();
 todo.title = "Laundry";
 todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
 
 todoList.addTodoItem(todo);
 
-todo = new Todo();
+todo = new TodoItem();
 todo.title = "Bake pancakes"
 todo.content = "Promised my younger brother to help him bake pancakes at 17:00 tomorrow";
 
