@@ -73,7 +73,7 @@ app.js & index.html (förslag på objekt till html logik)
   ```
   
   ```js
-  const todoList = document.querySelector(".todo-container");
+  const todoContainer = document.querySelector(".todo-container");
 
   function createTodoListItem(todo) {
     let li = document.createElement("li");
